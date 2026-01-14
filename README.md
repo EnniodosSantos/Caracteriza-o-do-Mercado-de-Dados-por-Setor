@@ -13,10 +13,10 @@ Estudantes e profissionais de Ciência de Dados se deparam com uma ampla gama de
 
 5- Tendências temporais: vamos verificar como os setores tem evoluido ao longo dos anos
 
-1 Distribuição por setor
+# 1 Distribuição por setor
 Neste sessão iremos verificar onde estão os profissionais da área de dados, quais os setores com mais profissionais e onde não tem
 
-1.1 Quantidade de profissionais por setor
+## 1.1 Quantidade de profissionais por setor
 Vamos verificar a quantidade de profissionais por setor:
 
 Como são variáveis qualitativas vamos fazer um distribuição de frequência
@@ -48,8 +48,8 @@ Para profissionais de dados, Finanças, Tecnologia e Varejo são setores muito m
 
 Os setores no final do gráfico podem representar nichos ou áreas emergentes onde há espaço para crescimento ou especialização.
 
-1.2 Tamanho das empresas por setor
-1.2.1 Distribuição das Frequências do Setor x Tamanho da empresa
+## 1.2 Tamanho das empresas por setor
+### 1.2.1 Distribuição das Frequências do Setor x Tamanho da empresa
 Para facilitação das análises foi definido o tamanho das empresas com base na quantidade de funcionários
 de 1 a 10: Microempresa,
 de 11 a 50: Pequena,
@@ -59,7 +59,7 @@ e Acima de 3.000: Mega
 
 <img width="650" height="632" alt="image" src="https://github.com/user-attachments/assets/a165b20b-7515-4d67-ac6b-dd33ad297c8d" />
 
-1.2.2 Distribuição das Frequências Absoluta do Setor x Tamanho da empresa (em relação ao total geral)
+### 1.2.2 Distribuição das Frequências Absoluta do Setor x Tamanho da empresa (em relação ao total geral)
 
 Fazendo uma análise das distribuições conseguimos fazer algumas inferências valiosas. Quando olhamos os totais das colunas (tamanho da empresa) percebemos que:
 
@@ -77,7 +77,7 @@ Outras opções genéricas
 
 <img width="665" height="634" alt="image" src="https://github.com/user-attachments/assets/8b052e3e-739b-4132-a936-a2262cf75531" />
 
-1.2.3 Mapa de Calor do Setor pelo tamanho
+### 1.2.3 Mapa de Calor do Setor pelo tamanho
 Com o mapa de calor fica ainda mais claro que os 6 primeiros setores tem a maior concentração de trabalhadores da área de dados principalmente em grandes empresas.
 
 O setor do varejo e a industria são o terceiro e o sexto maior em quantidade de profissionais, eles estão bem concentrados em empresas gigantes. Empresas menores estão próximos de zero
@@ -86,8 +86,8 @@ O setor de Tecnologia e Software apesar de ser o segundo maior não segue a regr
 <img width="720" height="663" alt="image" src="https://github.com/user-attachments/assets/a6bae743-33d2-4670-8f14-3378590c5da5" />
 
 
-2 Perfil Profissional por Setor
-2.1 Distribuição de cargos e níveis por setor
+# 2 Perfil Profissional por Setor
+## 2.1 Distribuição de cargos e níveis por setor
 • Vamos iniciar a análise traçando os histogramas das distribuições de Nível de “senioridade” e distribuição dos cargos
 
 
@@ -101,7 +101,7 @@ Conclusão parcial: A maioria dos profissionais é mais experiente (Pleno ou Sê
 
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/346c0a1e-c292-4eb6-b984-e48f9447d864" />
 
-Gráfico de Barras Empilhadas — Distribuição de Nível por Setor
+### Gráfico de Barras Empilhadas — Distribuição de Nível por Setor
 Mostra a quantidade de profissionais por nível em cada setor.
 
 Finanças/Bancos, Tecnologia/Fábrica de Software e Consultoria são os setores com maior número de profissionais, principalmente nos níveis Pleno e Sênior.
@@ -113,7 +113,7 @@ Conclusão parcial: Setores mais técnicos e de alta complexidade tendem a empre
 <img width="1380" height="690" alt="image" src="https://github.com/user-attachments/assets/211bb09b-72d5-4e3c-bc82-e93ab7630406" />
 
 
-Gráfico de Barras — Distribuição de Cargos
+### Gráfico de Barras — Distribuição de Cargos
 Mostra a quantidade de profissionais por cargo atual.
 
 O cargo de Analista de Dados/Data Analyst lidera com folga, seguido por Cientista de Dados/Data Scientist e Engenheiro de Dados/Data Architect.
@@ -144,7 +144,7 @@ Há uma carência de profissionais Júnior, o que pode indicar barreiras de entr
 
 A distribuição desigual entre setores e cargos sugere que algumas áreas ainda estão em fase de adoção de práticas orientadas por dados.
 
-2.2 Proporção de Gestores
+## 2.2 Proporção de Gestores
 Quantitativamente podemos observar nos gráficos que o setor com a maior quantidade de gestores é o de Tecnologia e Software, o que faz sentido, pois é um dos maiores setores do ramo.
 Também é interessante verificar que nenhum gestor da industria farmacêutica foi identificado na análise
 Press enter or click to view image in full size
@@ -157,7 +157,7 @@ O setor do varejo segue constantemente no quarto lugar
 Já o setor financeiro tem uma das menores proporções. ~17% dos funcionários da área de dados são gestores. O que é surpreendente já que é o setor com mais profissionais da área.
 É compreensível que setores com a menor quantidade de profissionais tenham mais gestores, uma vez que em equipes reduzidas as responsabilidades ficam concentradas em mais gente
 
-2.3 Tempo Médio de Experiencia em Dados e TI
+## 2.3 Tempo Médio de Experiencia em Dados e TI
 
 Média/mediana maior → mais senioridade no setor Setores com a mediana mais alta (linha dentro da caixa) têm, em média, profissionais mais experientes.
 Ex: Setor Farmacêutico e Área de Consultoria têm medianas mais altas → profissionais mais seniores.
@@ -180,7 +180,7 @@ Setores com entrada de novos profissionais: Educação, Ecommerce, ONGs, Setor A
 
 Setores diversos: onde a caixa é grande → como Consultoria, Saúde, Entretenimento, sugerem times com perfis mistos.
 
-2.4 Distribuição das áreas de formação por setor
+## 2.4 Distribuição das áreas de formação por setor
 Press enter or click to view image in full size
 
 Press enter or click to view image in full size
@@ -196,23 +196,23 @@ Oportunidade para programas de transição de carreira Como há migração de á
 Become a member
 Possível relação entre formação e setor Ex: Estatística e Matemática migrando para setores como bancos, seguros e consultoria sugere que setores mais analíticos absorvem essas formações.
 
-3 Modelos de trabalho por setor
-3.1 Distribuição dos modelos de trabalho atuais
+# 3 Modelos de trabalho por setor
+## 3.1 Distribuição dos modelos de trabalho atuais
 Press enter or click to view image in full size
 
 Press enter or click to view image in full size
 
 Press enter or click to view image in full size
 
-3.2 Modelos de trabalho ideais declarados
+## 3.2 Modelos de trabalho ideais declarados
 Press enter or click to view image in full size
 
 Press enter or click to view image in full size
 
 Press enter or click to view image in full size
 
-3.3 Comparativo entre modelo atual e ideal
-3.3.1 Gaps entre modelo atual e ideal
+## 3.3 Comparativo entre modelo atual e ideal
+### 3.3.1 Gaps entre modelo atual e ideal
 Vamos verificar qual a diferença entre o que as pessoas vivenciam atualmente e o que prefeririam.
 
 Vamos subtrair diretamente uma da outra (ideal — atual) para cada modelo de trabalho, mantendo a mesma ordem de setores:
